@@ -1,0 +1,21 @@
+@import "../../5shared/styles/index.scss";
+.list {
+  width: 100%;
+  margin-top: 12px;
+  list-style: none;
+  @include display-flex-row-start-center;
+  padding: 4px;
+  column-gap: 16px;
+  row-gap: 16px;
+}
+
+.item,
+.active {
+  padding: 4px;
+  border: 1px solid $color-line;
+  border-radius: 4px;
+  background-color: $color-check;
+  .active {
+    background-color: $color-green-light;
+  }
+}

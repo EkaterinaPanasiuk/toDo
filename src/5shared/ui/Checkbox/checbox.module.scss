@@ -1,0 +1,19 @@
+@import "../../styles/index.scss";
+.check {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  text-align: center;
+  border: 2px solid $color-green-light;
+  color: transparent;
+  margin-right: 12px;
+  cursor: pointer;
+  &:hover {
+    background-color: $color-green-light-05;
+    color: $color-white;
+  }
+}
+.checked {
+  background-color: $color-green-light;
+  color: $color-white;
+}

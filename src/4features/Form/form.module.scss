@@ -1,0 +1,16 @@
+@import "../../5shared/styles/index.scss";
+.formTodo {
+  width: 100%;
+  margin: 0 auto;
+  @include display-flex-row-center-center;
+  flex-wrap: wrap;
+}
+.inputTodo {
+  padding: 4px 8px;
+  color: $color-text;
+  font-size: 14px;
+  font-weight: 400;
+}
+.btnAddTodo {
+  @extend %btn;
+}

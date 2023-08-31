@@ -1,0 +1,34 @@
+@import "../../5shared/styles/index.scss";
+
+.btnDelete {
+  @extend %btn;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 2px 2px 2px 2px;
+  margin: 4px 4px 4px 12px;
+  background-color: $color-green-light;
+}
+.istItem {
+  border-bottom: 1px solid $color-green-line;
+  padding: 4px;
+}
+.todoItem,
+.productItem {
+  p {
+    display: inline;
+  }
+  border-bottom: 1px solid $color-green-line;
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+.checked {
+  p {
+    text-decoration: line-through;
+    color: $color-green-line;
+  }
+}

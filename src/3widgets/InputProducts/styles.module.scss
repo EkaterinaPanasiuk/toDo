@@ -1,0 +1,4 @@
+@import "../../5shared/styles/index.scss";
+.title {
+  @extend %title;
+}
