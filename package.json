@@ -15,7 +15,7 @@
     "sass": "^1.63.6",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://EkaterinaPanasiuk.github.io/",
+  "homepage": "https://ekaterinapanasiuk.github.io/toDo/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
